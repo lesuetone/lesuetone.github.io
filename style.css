@@ -11,6 +11,9 @@ padding: 10px;
 	
 }
 
-#description (
+#description {
 	float:right;
+}
+#reviews{
+	clear:both;
 }
