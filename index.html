@@ -4,7 +4,7 @@
 function clickMe(){
    var new_txt = document.createElement('p');
    new_txt.innerHTML = 'test';
-   document.body.removeChild('button');
+   document.body.removeChild(document.getElementById('button'));
    document.body.appendChild(new_txt);
 }
 </script>
@@ -13,7 +13,7 @@ function clickMe(){
 </head>
 <body>
 <h1>Hector's Portfolio</h1>	
- <button type="button" onclick='clickMe()' >Click Me!</button>
+ <button id="button" onclick='clickMe()' >Click Me!</button>
 
 </body>
 
