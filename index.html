@@ -4,6 +4,7 @@
 function clickMe(){
    var new_txt = document.createElement('p');
    new_txt.innerHTML = 'test';
+   document.body.removeChild('button')
    document.body.appendChild(new_txt);
 }
 </script>
